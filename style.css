@@ -19,6 +19,9 @@ header{
     color: #fd6e0a;
 }
 /* button */
+.common_btn:hover{
+    background-color: #fd9b55;
+}
 .common_btn{
     background-color: #fd6e0a;
     padding: 6px 10px;
@@ -88,4 +91,235 @@ ul li a{
 }
 .hero_parent-root{
     background-color: #fdf4ed;
+}
+
+/* abouth by css */
+.abouth-parent{
+    background-color: #fdf4ed;
+    margin: 70px auto;
+    border-radius: 10px;
+    text-align: center;
+    padding: 75px;
+}
+.abouth-parent p{
+    margin: 20px 0;
+    /* font-size: medium; */
+   
+}
+
+.curd-desgin{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.curd-desgin .box{
+    background-color: #ffe1ca;
+    padding: 5px;
+    border-radius: 5px;
+}
+.parent .vinila{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+} 
+/* what i do section */
+.what-i-do-parent{
+    margin: 60px auto;
+    text-align: center;
+    margin: 0 70px;
+}
+.what-i-do-card-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    gap: 20px;
+
+}
+.what-i-do-card-container .what-i-do-card{
+    border: 2px solid #fd6e0a;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+
+}
+.what-i-do-parent h2{
+    margin-bottom: 20px;
+}
+.what-i-do-card-container .what-i-do-card h3 {
+    margin: 10px 0;
+}
+.what-i-do-card-container .what-i-do-card p{
+    color: #757575;
+    font-size: 15px;
+}
+.main-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    background-color: #ffdcc2;
+}
+    
+    
+
+
+   .rsm-widget {
+    --rsm-ink: #1c1c1e;
+    --rsm-muted: #6b6b70;
+    --rsm-rule: #e6e6e8;
+    --rsm-accent: #f0631d;
+    --rsm-accent-dark: #d6540f;
+    --rsm-bg: #ffffff;
+    --rsm-bar: #1c1c1e;
+
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    background: var(--rsm-bg);
+    color: var(--rsm-ink);
+    display: flex;
+  }
+
+  .rsm-widget * { box-sizing: border-box; }
+
+  .rsm-side-bar {
+    width: 6px;
+    background: var(--rsm-bar);
+    align-self: stretch;
+  }
+
+  .rsm-page {
+    flex: 1;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 56px 40px 72px;
+  }
+
+  .rsm-widget h1.rsm-title {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    margin: 0 0 56px;
+  }
+
+  .rsm-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0 64px;
+  }
+
+  .rsm-widget h2.rsm-col-heading {
+    font-size: 19px;
+    font-weight: 700;
+    margin: 0 0 28px;
+  }
+
+  .rsm-entry {
+    padding: 18px 0;
+    border-bottom: 1px solid var(--rsm-rule);
+  }
+
+  .rsm-entry:last-of-type {
+    border-bottom: none;
+  }
+
+  .rsm-widget p.rsm-entry-title {
+    font-size: 15px;
+    font-weight: 600;
+    margin: 0 0 4px;
+  }
+
+  .rsm-widget p.rsm-entry-meta {
+    font-size: 13px;
+    color: var(--rsm-accent-dark);
+    font-weight: 500;
+    margin: 0 0 8px;
+  }
+
+  .rsm-widget p.rsm-entry-desc {
+    font-size: 13px;
+    line-height: 1.6;
+    color: var(--rsm-muted);
+    margin: 0;
+  }
+
+  .rsm-cta-wrap {
+    text-align: center;
+    margin-top: 48px;
+    grid-column: 1 / -1;
+  }
+
+  .rsm-widget a.rsm-cta {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background: var(--rsm-accent);
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 14px 28px;
+    border-radius: 4px;
+    transition: background 0.15s ease, transform 0.15s ease;
+  }
+
+  .rsm-widget a.rsm-cta:hover {
+    background: var(--rsm-accent-dark);
+    transform: translateY(-1px);
+  }
+
+  .rsm-widget a.rsm-cta svg {
+    width: 14px;
+    height: 14px;
+  }
+
+  @media (max-width: 640px) {
+    .rsm-widget .rsm-columns {
+      grid-template-columns: 1fr;
+      gap: 0;
+    }
+    .rsm-widget .rsm-col-heading:nth-of-type(2) {
+      margin-top: 40px;
+    }
+  }
+/* AMAZING START */
+.my-amazing-parent{
+  text-align: center;
+  margin: 10%;
+}
+.gallary{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 40px;
+  gap: 10px;
+  grid-auto-rows: 250px;
+  grid-template-areas: 
+  "one tow theree"
+  "four tow six"
+  "four five six";
+}
+.gallary img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.box-1{
+  grid-area: one;
+}
+.box-2{
+  grid-area: tow;
+}
+.box-3{
+  grid-area: theree;
+}
+.box-4{
+  grid-area: four;
+}
+.box-5{
+  grid-area: five;
+}
+.box-6{
+  grid-area: six;
 }
