@@ -129,11 +129,13 @@ ul li a{
     margin: 60px auto;
     text-align: center;
     margin: 0 70px;
+    margin-left: 10%;
 }
 .what-i-do-card-container{
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
+    
     gap: 20px;
 
 }
